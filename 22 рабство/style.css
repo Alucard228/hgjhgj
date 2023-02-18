@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+}
+
+body,
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+h1 {
+    margin: 0;
+    font-size: 70px;
+    font-weight: 600;
+    background-clip: text;
+    text-shadow: 0px 4px 10px rgba(60, 62, 65, 0.8);
+    color: rgba(9, 39, 6, 0.822);
+    font-family: 'Niconne', cursive;
+    text-align: center;
+    animation-duration: 2.5s;
+    animation-name: slan;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+@keyframes slan {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+img {
+    width: 100%;
+}
+
+.february__23 {
+    width: 200px;
+
+}
+
+.card__container {
+    min-height: 100%;
+    background-image: url("img/1667252522_12-celes-club-p-fon-voennii-dlya-prezentatsii-instagram-13.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    height: 740px;
+    overflow: hidden;
+    position: relative;
+}
+
+.cart__page__bottom {
+    color: rgb(5, 44, 17);
+    font-family: 'Lora', serif;
+    text-indent: 40px;
+    text-shadow: 0px 4px 10px rgba(60, 62, 65, 0.8);
+    border: double rgb(16, 59, 77);
+    padding: 10px 20px 10px 20px;
+    margin: 20px auto;
+    width: 400px;
+    background-color: rgba(135, 163, 58, 0.507);
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px #0e492667;
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+    10% {
+        transform: translate3d(0, 0, 0);
+    }
+
+    20% {
+        transform: translate3d(-20px, 0, 0);
+    }
+
+    50% {
+        transform: translate3d(10px, 0, 0);
+    }
+
+    75% {
+        transform: translate3d(-7px, 0, 0);
+    }
+
+    100% {
+        transform: translate3d(0, 0, 0);
+    }
+
+}
